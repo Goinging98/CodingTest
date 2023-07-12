@@ -5,6 +5,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//participant											completion			return
+//["leo", "kiki", "eden"]								["eden", "kiki"]	"leo"
+//["marina", "josipa", "nikola", "vinko", "filipa"]	["josipa", "filipa", "marina", "nikola"]	"vinko"
+//["mislav", "stanko", "mislav", "ana"]				["stanko", "ana", "mislav"]		"mislav"
+
+//문제 풀이 전 반드시 손으로 시뮬레이션 돌려봐야한다!
+//["leo", "", ""] - ["eden", "kiki"] = leo
+//["", "", "", "vinko", ""] ["", "", "", ""] = vinko
+//["", "", "mislav", ""] ["", "", ""] = mislav
+
 class Solution {
 	// 풀이 실패한 코드!! 이유 : 시간초과, 복잡도 : O(n^3), 3차원이라 안풀림!!
     public String solution2(String[] participant, String[] completion) {
