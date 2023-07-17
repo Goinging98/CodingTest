@@ -19,7 +19,7 @@ class Solution {
 	// 풀이 실패한 코드!! 이유 : 시간초과, 복잡도 : O(n^3), 3차원이라 안풀림!!
     public String solution2(String[] participant, String[] completion) {
     	List<String> participantList = new ArrayList<>();
-//    	participantList = Arrays.asList(participant); // 쓰면 안된다!, 읽기전용이라 안도니다.
+//    	participantList = Arrays.asList(participant); // 쓰면 안된다!, 읽기전용이라 안된다.
     	
     	for(String name : participant) {
     		participantList.add(name);
