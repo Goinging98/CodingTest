@@ -7,7 +7,7 @@ def solution(nums):
     for value in nums : 
         if(value != last and answer < length) : # value가 last와 다르고, answer가 길이보다 작으면 시행 
             answer += 1 
-            last = value
+            last = value # 그리고 아까 그 값으로 업데이트 
     
     return answer
 
