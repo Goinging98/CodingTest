@@ -1,6 +1,6 @@
 # CodingTest
 ## Programmers Java Practice
-- 1차 학습 : https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit
+- 함께 학습한 링크 : https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit
 ![image](https://github.com/Goinging98/CodingTest/assets/38778937/aff9489f-ded2-4cbd-a1e2-8f387901bec7)
 
 ## 멀티잇 9월 파이썬 코딩테스트반
@@ -14,3 +14,7 @@
 - 8회 : 그래프 탐색 1
 - 9회 : 그래프 탐색 2
 - 10회 : 모의고사 
+
+
+## Programmers Python Practice 
+![image](https://github.com/Goinging98/CodingTest/assets/38778937/aff9489f-ded2-4cbd-a1e2-8f387901bec7)
